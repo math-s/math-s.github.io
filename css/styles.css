@@ -1,0 +1,70 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-body img {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  border-radius: 50%; /* Apply a circular shape */
+  border: 1px solid #ccc; /* Add a border */
+  padding: 5px; /* Add some padding */
+  background-color: #fff; /* Set a background color */
+}
+
+.card-body img:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+#title {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+#subtitle {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+}
